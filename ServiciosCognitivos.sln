@@ -18,6 +18,7 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		ServiciosCognitivos\ServiciosCognitivos\ServiciosCognitivos.projitems*{bf415cc2-d419-4bf1-8b3a-c6452da7cb49}*SharedItemsImports = 13
+		ServiciosCognitivos\ServiciosCognitivos\ServiciosCognitivos.projitems*{dbf49f6f-a017-4496-8850-96b2a259fb78}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

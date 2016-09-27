@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ServiciosCognitivos.Paginas.PaginaAnalisisEmociones">
+  <StackLayout Padding="0">
+    <Image x:Name="imgFoto" WidthRequest="150" HeightRequest="150" Aspect="AspectFit"/>
+    <Button x:Name="btnCamara" x:Id="btnCamara" Text="Usar cámara" Clicked="btnFoto_Clicked"/>
+    <Button x:Name="btnGaleria" x:Id="btnGaleria" Text="Seleccionar de la galería" Clicked="btnFoto_Clicked"/>
+    <Button x:Name="btnAnalizarEmociones" Text="Analizar emociones" Clicked="btnAnalizarEmociones_Clicked"/>
+    <Label x:Name="lblResultado" Text="---" />
+    <StackLayout x:Name="panelResultados"/>
+  </StackLayout>
+</ContentPage>

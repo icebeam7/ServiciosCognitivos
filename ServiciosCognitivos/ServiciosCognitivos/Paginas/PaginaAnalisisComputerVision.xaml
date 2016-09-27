@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ServiciosCognitivos.Paginas.PaginaAnalisisComputerVision">
+  <StackLayout VerticalOptions="FillAndExpand">
+    <Image x:Name="imgFoto" WidthRequest="150" HeightRequest="150" Aspect="AspectFit"/>
+    <Button x:Name="btnCamara" x:Id="btnCamara" Text="Usar cámara" Clicked="btnFoto_Clicked"/>
+    <Button x:Name="btnGaleria" x:Id="btnGaleria" Text="Seleccionar de la galería" Clicked="btnFoto_Clicked"/>
+    <Button x:Name="btnAnalizarImagen" Text="Analizar imagen" Clicked="btnAnalizarImagen_Clicked"/>
+    <Label x:Name="lblAdulto" Text="---" />
+    <Label x:Name="lblRacista" Text="---" />
+    <Label x:Name="lblCategorias" Text="---" />
+    <Label x:Name="lblColor" Text="---" />
+    <Label x:Name="lblTags" Text="---" />
+    <Label x:Name="lblCaptions" Text="---" />
+    <Label x:Name="lblCaras" Text="---" />
+    <Label x:Name="lblTags2" Text="---" />
+  </StackLayout>
+</ContentPage>
